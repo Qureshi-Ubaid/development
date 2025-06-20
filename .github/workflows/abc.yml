@@ -1,0 +1,28 @@
+repository:
+  name: my-static-site
+  description: >
+    A simple static website consisting of HTML, CSS, and JavaScript files.
+    It includes a button that changes background color on click.
+  version: 1.0.0
+  author:
+    name: Your Name
+    email: your.email@example.com
+  license: MIT
+  files:
+    - name: index.html
+      type: html
+      size_kb: 3
+      description: Main HTML structure of the website.
+      last_modified: 2025-06-20
+    - name: style.css
+      type: css
+      size_kb: 2
+      description: Stylesheet defining layout and colors.
+      last_modified: 2025-06-20
+    - name: script.js
+      type: javascript
+      size_kb: 1
+      description: JavaScript logic for background color change.
+      last_modified: 2025-06-20
+  repository_url: https://github.com/yourusername/my-static-site
+  homepage: https://yourusername.github.io/my-static-site
