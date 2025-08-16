@@ -1,5 +1,12 @@
 function changeColor() {
-    const colors = ["#ffadad", "#ffd6a5", "#caffbf", "#9bf6ff", "#a0c4ff", "#bdb2ff"];
-    const randomColor = colors[Math.floor(Math.random() * colors.length)];
-    document.body.style.backgroundColor = randomColor;
+  const colors = ["#ff6b6b", "#6bffb3", "#6bc9ff", "#ffe66b", "#b26bff"];
+  document.body.style.background = colors[Math.floor(Math.random() * colors.length)];
+}
+
+function resetColor() {
+  document.body.style.background = "linear-gradient(135deg, #74ABE2, #5563DE)";
+}
+
+function showAlert() {
+  alert("🎉 Thanks for visiting my website!");
 }
